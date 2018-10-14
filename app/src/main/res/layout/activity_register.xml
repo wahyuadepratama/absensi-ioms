@@ -1,0 +1,71 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context="com.github.wahyuadepratama.absensi.RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="24sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:fontFamily="sans-serif"
+            android:text="REGISTER"/>
+
+        <EditText
+            android:id="@+id/etNama"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama"
+            android:textColorHint="@color/colorPrimary"
+            android:padding="8dp"
+            android:inputType="textPersonName"
+            android:background="@color/colorPrimaryLittleDark"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:textColorHint="@color/colorPrimary"
+            android:padding="8dp"
+            android:inputType="textEmailAddress"
+            android:background="@color/colorPrimaryLittleDark"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:textColorHint="@color/colorPrimary"
+            android:inputType="textPassword"
+            android:padding="8dp"
+            android:background="@color/colorPrimaryLittleDark"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:text="REGISTER"
+            android:background="@color/colorPrimaryDark"
+            android:textColorHint="@color/colorAccent"/>
+    </LinearLayout>
+</RelativeLayout>

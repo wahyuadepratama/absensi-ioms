@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">IOMS</string>
+    <string name="login">LOG IN</string>
+    <string name="register">REGISTER</string>
+    <string name="nim">NIM</string>
+    <string name="password">Password</string>
+    <string name="profile">Profile</string>
+    <string name="logout">Logout</string>
+    <string name="setting">Setting</string>
+    <string name="absensi">Absensi</string>
+    <string name="openDrawer">Drawer Dibuka</string>
+    <string name="closeDrawer">Drawer Dibutup</string>
+
+    <string name="nama">NAMA</string>
+    <string name="email">E-MAIL</string>
+    <string name="no_handphone">PHONE</string>
+    <string name="alamat">ALAMAT</string>
+
+    <string name="header_title">Welcom to HMSI</string>
+</resources>
